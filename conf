@@ -1,1 +1,1 @@
-export PYTHONPATH="/usr/Alok/PY-PROC/Plugin-Framework"
+export PYTHONPATH="your base directory"
