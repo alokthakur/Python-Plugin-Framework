@@ -14,8 +14,6 @@ class CommandPluginRegistry(IPluginRegistry):
     def __init__(cls, name, bases, dict):
         if name != "CommandPlugin":
             CommandPluginRegistry.cmd_plugins.append(cls)
-            print cls
-            print name
 
 class CommandPlugin(IPlugin):
     __metaclass__ = CommandPluginRegistry
